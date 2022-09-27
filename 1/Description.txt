@@ -1,0 +1,30 @@
+Write a program, PowerCoders, which does the following:
+★ Prints the numbers from 1-100 except:
+★ For multiples of five, print “Power”
+★ For multiples of seven, print “Coders”
+★ For multiples of five and seven, print “PowerCoders”
+Describe in words how you would write such a program. Make sure to write
+out each step clearly. Imagine you have to explain to a non-coder what you
+want to do and why. (This part of the exercise does not ask for any code.)
+(Bonus if you have time: write a Javascript version of this program)
+
+
+As you need to do 1 repeated operation 100 times, you should use loop.
+A loop statement allows us to execute a statement or group of statements multiple times.
+The main idea of loop, that we check condition and do some operation 
+while the condition is true.
+In this example we shoud check a few conditions. And we can describe a programm 
+as following steps.
+1. Our start point is number 1.
+2. We check if number <= 100 (cause we need to print all numbers in order including 100).
+If number <=100 we do next step.
+3. As we have additional condition we shoud also check them. 
+4. First we check if number multiples of five and seven both. If it's true,
+we print "PowerCoders". If false we check next condition.
+5. Maybe number multiples of five. In case true, we print “Power”. In case false, 
+we check next.
+6. We check if number multiples of seven. If true, we print “Coders”. In false...
+7. We print number.
+8. Than add number+1 and go to the start of our loop for checking our first condition 
+(number<=100).
+9. If our number = 101, we end our programm.
