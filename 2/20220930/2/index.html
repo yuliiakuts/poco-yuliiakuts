@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            box-sizing: border-box;
+        }
+        *, *:before, *:after {
+            box-sizing: inherit;
+        }
+        #div1{
+            background-color: red;
+            border: 2px solid black;
+            width: 80%;
+            height: 600px;
+            margin: auto;
+            position: relative;
+            text-align: center;
+            
+        }   
+        #child1{
+            background-color: rgb(255, 242, 0);
+            border: 2px solid black;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 50px;
+            left: 150px;
+            text-align: center;
+            
+        }
+
+        #child2{
+            background-color: rgb(255, 255, 0);
+            border: 2px solid black;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            right: 150px;
+            bottom: 50px;
+            text-align: center;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="div1">
+        
+        <div id="child1">
+            Child 1
+        </div>
+        <div id="child2">
+            Child 2
+        </div>
+    </div>
+    
+</body>
+</html>
