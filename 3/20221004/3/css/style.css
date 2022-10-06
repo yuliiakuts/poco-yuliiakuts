@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+body {
+    border: solid gray;
+    border-width: 4em 3em 4em 3em;
+
+}
+
+header {
+    text-align: center;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    
+    
+}
+
+section{
+    width: 473px;
+    text-align: center;
+}
+
+h2 {
+    color: gray;
+    font-weight: normal;
+    margin: 20px 0px 20px 0px;
+}
+
+article {
+    margin: 20px 0px 100px 0px;
+    font-size: 20px;;
+    line-height: 1.5;
+}
