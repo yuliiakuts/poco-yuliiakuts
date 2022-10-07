@@ -19,7 +19,16 @@ body {
 
 header {
     text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    
 }
+
+span {
+    font-weight: normal;
+    color: gray;
+}
+
 main {
     display: grid;
     grid-template-columns: 1fr 1fr;

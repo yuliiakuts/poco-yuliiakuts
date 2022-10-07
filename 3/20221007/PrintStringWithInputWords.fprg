@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Julia"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-07 02:41:38 pm"/>
+        <attribute name="created" value="SnVsaWE7WVVMSUlBS1VUUzsyMDIyLTEwLTA3OzAxOjQ2OjU1IHBtOzI2MzI="/>
+        <attribute name="edited" value="SnVsaWE7WVVMSUlBS1VUUzsyMDIyLTEwLTA3OzAyOjQxOjM4IHBtOzE7MjczNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="author" type="String" array="False" size=""/>
+            <declare name="quotation" type="String" array="False" size=""/>
+            <output expression="&quot;Input quotation&quot;" newline="True"/>
+            <input variable="quotation"/>
+            <output expression="&quot;Input author&quot;" newline="True"/>
+            <input variable="author"/>
+            <output expression="author&amp; &quot; says, &quot; &amp;quotation" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

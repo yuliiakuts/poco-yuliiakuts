@@ -1,0 +1,21 @@
+1. Input bill amount
+2. Input tip rate
+3. Calculate amount of tip (bill amount*tip rate/100)
+4. Calculate total bill (bill amount + tip amount)
+5. Output: bill amount, tip amount, total
+
+Initialise BillAmount = 0
+Initialise TipRate = 0
+Initialise TipAmount = 0
+Initialise Total = 0
+
+Prompt "Input bill amount"
+Prompt "Input tip rate (from 0 to 100)" 
+
+Calculate TipAmount = BillAmount * TipRate / 100
+Calculate round tip up to nearest 5 rappen 
+Calculate Total = BillAmount + TipAmount
+
+Output BillAmount
+Output TipAmount
+Output Total

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Julia"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-07 03:11:39 pm"/>
+        <attribute name="created" value="SnVsaWE7WVVMSUlBS1VUUzsyMDIyLTEwLTA3OzAyOjQxOjQxIHBtOzI2MjM="/>
+        <attribute name="edited" value="SnVsaWE7WVVMSUlBS1VUUzsyMDIyLTEwLTA3OzAzOjExOjM5IHBtOzE7MjczNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="word" type="String" array="False" size=""/>
+            <declare name="numberOfChar" type="Integer" array="False" size=""/>
+            <output expression="&quot;Input your string&quot;" newline="True"/>
+            <input variable="word"/>
+            <assign variable="numberOfChar" expression="Len(word)"/>
+            <output expression="&quot;String &quot; &amp; word &amp; &quot; contains &quot; &amp; numberOfChar &amp; &quot; characters&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Julia"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-07 04:27:26 pm"/>
+        <attribute name="created" value="SnVsaWE7WVVMSUlBS1VUUzsyMDIyLTEwLTA3OzAzOjExOjQzIHBtOzI2MjM="/>
+        <attribute name="edited" value="SnVsaWE7WVVMSUlBS1VUUzsyMDIyLTEwLTA3OzA0OjI3OjI2IHBtOzE7Mjc0MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="noun" type="String" array="False" size=""/>
+            <declare name="verb" type="String" array="False" size=""/>
+            <declare name="adjective" type="String" array="False" size=""/>
+            <declare name="adverb" type="String" array="False" size=""/>
+            <output expression="&quot;Input noun&quot;" newline="True"/>
+            <input variable="noun"/>
+            <output expression="&quot;Input verb&quot;" newline="True"/>
+            <input variable="verb"/>
+            <output expression="&quot;Input adjective&quot;" newline="True"/>
+            <input variable="adjective"/>
+            <output expression="&quot;Input adverb&quot;" newline="True"/>
+            <input variable="adverb"/>
+            <output expression="&quot;Today I went to the zoo. I saw a(n) &quot; &amp; adjective&amp; &quot; &quot; &amp; noun&amp; &quot; jumping up and down in its tree. He &quot; &amp; verb &amp; &quot; &quot; &amp; adverb &amp; &quot; through the large tunnel that led to its &quot; &amp; adjective &amp; &quot; &quot; &amp; noun &amp; &quot;. I got some peanuts and passed them through the cage to a gigantic gray &quot; &amp; noun &amp; &quot; &quot; &amp; &quot;towering above my head. Feeding that animal made me hungry. I went to get a &quot; &amp; adjective &amp; &quot; scoop of ice cream. It filled my stomach. Afterwards I had to &quot; &amp; verb &amp; &quot; &quot; &amp; adverb &amp; &quot; to catch our bus. When I got home I &quot; &#13;&#10;&amp; verb &amp; &quot; my mom for a &quot; &amp; adjective&amp;&quot; day at the zoo. &quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
