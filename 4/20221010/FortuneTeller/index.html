@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let numberOfChildren = ["1", "2", "3", "4"];
+let parentsName = ["John", "Luis", "Sam"];
+// let parentName2 = ["Sara", "Nathalie", "Carol"];
+let geoLocation = ["Africa", "Asia", "Europe", "Australia"];
+let jobTitle = ["car driver", "doctor", "teacher"];
+
+document.write("You will be a " + getRandomItem(jobTitle) + " in " + getRandomItem(geoLocation) + ", and married to " + getRandomItem(parentsName) + " with " + getRandomItem(numberOfChildren) + " kids.")
+
+// program to get a random item from an array
+
+function getRandomItem(arr) {
+
+    // get random index value
+    const randomIndex = Math.floor(Math.random() * arr.length);
+
+    // get random item
+    const item = arr[randomIndex];
+
+    return item;
+}
+
+
+geoLocation.forEach(function(value, index){
+    console.log(value);
+});
+
+
+    </script>
+</body>
+</html>
