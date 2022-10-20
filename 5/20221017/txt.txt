@@ -1,0 +1,38 @@
+
+1. Input A 
+2. Input B 
+3. Check if both numbers a positive integers. If not, back to step 1.
+4. Compare A and B
+5. If A > B, substract A-B and set A=A-B. 
+6. Back to step 4
+7. If A < B, substract B-A and set B=B-A. 
+8. Back to step 4
+9. If A = B Output GCD = A = B.
+10. END
+
+
+A = 60
+B = 45
+60 > 45 --> A = 60 - 45 = 15, B = 45
+15 < 45 --> A = 15, B = 45 - 15 = 30
+15 < 30 --> A = 15, B = 30 - 15 = 15
+15 = 15 --> GCD = 15 
+
+
+1. Input A 
+2. Input B 
+3. Check if both numbers a positive integers. If not, back to step 1.
+4. Compare A and B
+5. If A > B, find mod A % B and set A = A % B. 
+6. Back to step 4
+7. If A < B, substract B % A and set B=B % A. 
+8. Back to step 4
+9. If A = 0 or B = 0 Output GCD = A or GCD = B.
+10. END
+
+
+A = 60
+B = 45
+60 > 45 --> A = 60  B = 60 % 45 = 15, B = 15
+60 > 15 --> A = 60, B = 60 % 15 = 0
+B = 0 --> GCD = 15 

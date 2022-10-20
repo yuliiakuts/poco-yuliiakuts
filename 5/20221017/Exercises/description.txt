@@ -1,0 +1,42 @@
+Which number is bigger?
+Declare 2 variables, both numbers
+Compare which number is greater
+Log the output, e.g. "The greater number of 5 and 10 is 10."
+Add an output for the else statement, e.g. "The smaller number 
+of 5 and 10 is 5."
+
+
+1. Input A 
+2. Input B 
+3. Check if are both numbers. If not, back to step 1.
+4. Compare A and B
+5. If A > B output messages: "The greater number of A and B is A."
+"The smaller number of A and B is B."
+6. If A < B output messages: "The greater number of A and B is B."
+"The smaller number of A and B is A."
+7. If A = B output message "A = B"
+
+
+
+The world translator
+Write a function named helloWorld that:
+Takes 1 argument, a language code (e.g. "es", "de", "en")
+Returns "Hello, World" for the given language, for at least 3 languages. It should default to returning English.
+Call that function for each of the supported languages and log 
+the result to make sure it works
+
+
+Retirement calculator
+Create a program that determines how many years you have left until retirement and the year you can retire. It should prompt for your current age and the age you want to retire and display the output 
+as shown in the example that follows on the next slide.
+What to do
+List inputs, outputs, processes in a text file.
+What are the constraints? Any edge case to consider? Note in your text file.
+Write the steps of your algorithm in pseudo-code in a second text file.
+Write the program in JavaScript. Find out how to get the current year from your computer.
+Push all 3 files (1 js and 2 txt) to your Github account.
+Example:
+What is your age? 25
+At what age would you like to retire? 65
+You have 40 years left until you can retire.
+It's 2020, so you can retire in 2060.
